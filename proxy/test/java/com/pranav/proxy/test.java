@@ -1,6 +1,9 @@
-package com.pranav.proxy;
+package java.com.pranav.proxy;
 
-public class Client {
+import com.pranav.proxy.Internet;
+import com.pranav.proxy.ProxyInternet;
+
+public class test {
     public static void main (String[] args)
     {
         Internet internet = new ProxyInternet();

@@ -1,10 +1,13 @@
-package com.pranav.factory;
+package java.com.pranav.factory;
+
+import com.pranav.factory.GetPlanFactory;
+
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class GenerateBill {
+public class test {
 
     public static void main(String[] args)throws IOException {
         GetPlanFactory planFactory = new GetPlanFactory();
@@ -16,12 +19,11 @@ public class GenerateBill {
         System.out.print("Enter the number of units for bill will be calculated: ");
         int units=Integer.parseInt(br.readLine());
 
-        Plan p = planFactory.getPlan(planName);
+
 
 
         System.out.print("Bill amount for "+planName+" of  "+units+" units is: ");
-        p.getRate();
-        p.calculateBill(units);
+
         
     }
 }
