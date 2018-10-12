@@ -1,4 +1,4 @@
-package java.com.pranav.factory;
+package com.pranav.factory;
 
 import com.pranav.factory.GetPlanFactory;
 

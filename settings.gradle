@@ -1,3 +1,5 @@
 rootProject.name = 'java-design-pattern'
 include 'factory'
 include 'proxy'
+include 'builder'
+

@@ -1,4 +1,4 @@
-package java.com.pranav.proxy;
+package com.pranav.proxy;
 
 import com.pranav.proxy.Internet;
 import com.pranav.proxy.ProxyInternet;
